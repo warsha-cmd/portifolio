@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="survey.html">Survey</a>
+    </nav>
+  </header>
+  <main>
+    <form onsubmit="return validateContactForm()">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="email" id="email" placeholder="Your Email">
+      <input type="text" id="phone" placeholder="Your Phone">
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+</body>
+</html>

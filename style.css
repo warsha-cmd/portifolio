@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:lightblue;
+  color: #333;
+  margin: 0;
+  padding: 0;
+justify-content: center;
+text-align:center;
+}
+
+header {
+  background-color:darkgreen;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-bar a {
+  margin: 0 10px;
+  color:lightblue;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.about-layout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+text-align:center;
+}
+
+.about-layout section {
+  flex: 2;
+text-align:center;
+}
+
+.about-layout aside {
+  flex: 1;
+}
+
+.projects-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+margin: 30px auto;
+}
+
+.projects-layout section {
+  flex: 1;
+  background-color:yellowlight;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+max-width: 500px;
+margin: 30px auto;
+}
+button {
+    background:green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input, textarea,select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.responsive-btn {
+  justify-self: center;
+  width: 80%;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background-color: #111;
+}
